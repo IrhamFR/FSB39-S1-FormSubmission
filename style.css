@@ -1,0 +1,274 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap);
+/* whole body */
+body {
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(225, 231, 241);
+}
+
+/* navbar */
+nav {
+    background-color: rgb(255, 255, 255);
+    height: 7vh;
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav .left-side {
+    flex: 50%;
+    padding-left: 90px;
+    padding-top: 5px;
+}
+
+nav .right-side {
+    flex: 50%;
+    justify-content: flex-end;
+    padding-right: 90px;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 40px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: bolder;
+}
+
+nav .right-side a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(3, 12, 44);
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+/* name card */
+.personal {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container-content {
+    flex-direction: row;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    margin: 5%;
+    margin-top: 8%;
+    border: none;
+    padding: 40px 0px 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(79, 79, 79);
+    background-color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.container-content .left {
+    flex: 65%;
+}
+
+.detail-bio {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.my-contact {
+    background-color: rgb(3, 12, 44);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 35px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-decoration: none;
+   
+}
+
+.my-cv {
+    color: rgb(3, 12, 44);
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.container-content .right {
+    flex: 35%;
+}
+
+.container-content .social a {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%; 
+    margin-right: 20px;
+    background-color: rgb(3, 12, 44);
+    color: white;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.container-card {
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    align-items: center;
+}
+
+.image-card {
+    height: 340px;
+    width: 100%;
+}
+
+.image-card img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.name-card {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.personalName {
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.personalJob {
+    text-align: center;
+    margin: 0;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+
+/* contact me */
+.contact-me {
+    width: 400px;
+    margin: auto;
+    margin-top: 6.5%;
+    margin-bottom: 5%;
+}
+
+.contact-container {
+    box-sizing: border-box;
+    font-size: 20px; 
+    font-weight: 700;
+}
+
+.contact-container h1 {
+    text-align: center;
+    font-size: 34px;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    font-size: 20px; 
+    font-weight: 600;
+}
+
+.input-form input {
+    width: 95.5%;
+    padding: 8px;
+    background-color: #f3f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.input-form select {
+    width: 100%;
+    border: 1px solid #c4c4c4;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.input-form textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: #f3f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    margin-top: 5px;
+    height: 100px;
+    resize: none;
+}
+
+.button-form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-form button {
+    background-color: rgb(3, 12, 44);
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+
+
+/* scroll bar */
+::-webkit-scrollbar {
+width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+   
+::-webkit-scrollbar-thumb {
+background: #888; 
+border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
